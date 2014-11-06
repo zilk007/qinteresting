@@ -8,6 +8,12 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass'
+gem 'sendgrid'
+gem 'sendgrid-rails'
+
+group :development do
+	gem 'letter_opener'
+end
 
 group :development, :test do
 	gem 'sqlite3'
