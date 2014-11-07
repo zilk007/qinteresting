@@ -10,10 +10,9 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass'
 gem 'sendgrid'
 gem 'sendgrid-rails'
+gem 'compass-rails', '~> 2.0.alpha.0' 
+gem "figaro"
 
-group :development do
-	gem 'letter_opener'
-end
 
 group :development, :test do
 	gem 'sqlite3'
