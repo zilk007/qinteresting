@@ -103,8 +103,6 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    sendgrid (1.2.0)
-      json
     sendgrid-rails (2.0.4)
       actionmailer (>= 3.0.0)
       activesupport (>= 2.1.0)
@@ -259,17 +257,16 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass!
-  coffee-rails (~> 4.0.0)
-  compass-rails (~> 2.0.alpha.0)
+  coffee-rails
+  compass-rails
   figaro
   jbuilder (~> 1.2)
   jquery-rails
   pg
   rails (= 4.0.0)
   rails_12factor
-  sass-rails (~> 4.0.0)
+  sass-rails
   sdoc
-  sendgrid
   sendgrid-rails
   sqlite3
   turbolinks
